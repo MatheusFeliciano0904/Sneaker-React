@@ -1,13 +1,16 @@
-import React from "react";
+
 import Topo from "./components/Topo";
 import Principal from "./components/Principal";
 import Rodape from "./components/Rodape";
 
-const App = () => {
-  <>
-    <Topo />
-    <Principal />
-    <Rodape />
-  </>  
-};   
+function App() {
+  return(
+<>
+<Topo></Topo>
+<Principal></Principal>
+<Rodape></Rodape>
+</>
+  );
+}
+
 export default App;

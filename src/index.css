@@ -1,139 +1,123 @@
-html {
-  font-size: 16px;
-  box-sizing: border-box;
+:root {
+  --centauro-blue: #cc0000;    
+  --centauro-orange: #0a0a0a;  
+  --centauro-light: #f7f7f7;   
+  --centauro-dark: #333333;    
+  --centauro-white: #ffffff;   
 }
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
+
 body {
   margin: 0;
-  font: 1rem sans-serif;
+  font-family: Arial, sans-serif;
+  color: var(--centauro-dark);
+  background: var(--centauro-white);
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0 0 0.2em 0;
+
+
+.logo {
+  height: 200px;
+  background: url('../public/Imagens/Logo.jpg') center/contain no-repeat;
+  background-color: var(--centauro-white);
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
 }
-ul {
+
+
+.topo ul {
+  background: var(--centauro-blue);
+  display: flex;
+  justify-content: center;
   padding: 0;
   margin: 0;
-  list-style: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-.logo {
-  position: relative;
-  padding: 1.2em 0;
-  background: href="sneaker\public\Imagens\Logo.jpg" center no-repeat;
-}
-.logo span {
-  position: absolute;
-  top: -20000px;
-}
-.topo h1 {
-  width: 200px;
-  height: 50px;
-  margin: 0 auto;
-}
-.topo ul {
-  background: #c8e0e8;
-  border-bottom: 1px solid #cacaca;
-}
+
 .topo li {
-  display: inline-block;
-  border-right: 1px solid #999;
+  margin: 0;
 }
+
 .topo li a {
-  text-transform: uppercase;
+  color: var(--centauro-white);
+  padding: 12px 20px;
   font-weight: bold;
-  color: #000;
-  text-decoration: none;
-  display: block;
-  padding: 8px 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  transition: all 0.3s;
 }
+
 .topo li a:hover {
-  color: #666;
+  background: var(--centauro-orange);
 }
-.topo li:first-child a {
-  border-left: 1px solid #999;
-}
-.principal a {
-  color: #027399;
-  text-decoration: none;
-}
-.thumb img {
-  display: block;
-  width: 80px;
-}
-.topo,
-.rodape {
-  text-align: center;
-  background: #eaefef;
-  padding: 1px 0;
-}
-.topo {
-  margin-bottom: 4px;
-}
+
+
 .principal {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background: #eaefef;
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 15px;
+  background: var(--centauro-light);
+  border-radius: 5px;
 }
+
 .principal h2 {
-  flex-basis: 100%;
-  font-size: 1em;
-  margin: 0;
-  padding: 6px 5px;
-  color: #fff;
-  background: #027399;
+  background: var(--centauro-blue);
+  color: var(--centauro-white);
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 3px;
 }
-.principal h3 {
-  font-size: 1em;
-}
-.principal ol {
-  margin-top: 8px;
-}
+
 .card {
-  display: flex;
-  flex: 0 1 50%;
-  padding: 8px 0 10px 10px;
-  border-bottom: 1px solid #ccc;
+  background: var(--centauro-white);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: box-shadow 0.3s;
 }
-.card h2 {
-  font-size: 16px;
+
+.card:hover {
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
-.card p {
-  font-size: 14px;
-  margin: 0;
-}
-.thumb {
-  margin-right: 5px;
-}
-.detalhes {
-  display: flex;
-  flex-direction: column;
-}
+
+
 .rodape {
-  margin-top: 4px;
+  background: var(--centauro-dark);
+  color: var(--centauro-white);
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
 }
- .livro {
-  overflow: auto;
-  margin: 20px 0;
+
+
+a {
+  color: var(--centauro-blue);
+  text-decoration: none;
+  transition: color 0.3s;
 }
-.livro img {
-  display: block;
-  width: 180px;
-  float: left;
-  margin: 0 10px;
-} 
-@media screen and (max-width: 600px) {
-  .principal {
+
+a:hover {
+  color: var(--centauro-orange);
+}
+
+.btn {
+  background: var(--centauro-orange);
+  color: var(--centauro-white);
+  padding: 8px 15px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+
+@media (max-width: 768px) {
+  .topo ul {
     flex-direction: column;
+  }
+  
+  .logo {
+    height: 150px;
   }
 }
