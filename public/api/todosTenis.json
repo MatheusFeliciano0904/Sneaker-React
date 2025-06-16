@@ -1,0 +1,182 @@
+[
+  {
+    "id": "sapato1",
+    "modelo": "Air Max Scorpion",
+    "preco": 1200,
+    "categoria": "esportivo",
+    "slug": "air-max-scorpion-neon",
+    "ano": 2023,
+    "descricao": "Tecnologia de amortecimento revolucionária para corridas."
+  },
+  {
+    "id": "sapato2",
+    "modelo": "Dunk Low Retro",
+    "preco": 850,
+    "categoria": "casual",
+    "slug": "dunk-low-panda-wave",
+    "ano": 2022,
+    "descricao": "Clássico retrô com design minimalista em preto e branco."
+  },
+  {
+    "id": "sapato3",
+    "modelo": "Superstar Bounce",
+    "preco": 600,
+    "categoria": "saltos e botas",
+    "slug": "superstar-kids-glitter",
+    "ano": 2021,
+    "descricao": "Versão infantil de Bota com detalhes em glitter e conforto reforçado."
+  },
+  {
+    "id": "sapato4",
+    "modelo": "RS-X Turbo",
+    "preco": 550,
+    "categoria": "esportivo",
+    "slug": "rs-x-turbo-hyper",
+    "ano": 2023,
+    "descricao": "Design futurista com solado de alta tração."
+  },
+  {
+    "id": "sapato5",
+    "modelo": "Air Force 1 Lux",
+    "preco": 700,
+    "categoria": "casual",
+    "slug": "air-force-lux-gold",
+    "ano": 2022,
+    "descricao": "Edição premium em couro com detalhes dourados."
+  },
+  {
+    "id": "sapato6",
+    "modelo": "Old Skool Flame",
+    "preco": 350,
+    "categoria": "casual",
+    "slug": "old-skool-flame-red",
+    "ano": 2021,
+    "descricao": "Estampa de chamas laterais para um visual ousado."
+  },
+  {
+    "id": "sapato7",
+    "modelo": "Chuck Taylor Art",
+    "preco": 400,
+    "categoria": "saltos e botas",
+    "slug": "chuck-taylor-doodle",
+    "ano": 2023,
+    "descricao": "Personalizado com ilustrações infantis coloridas."
+  },
+  {
+    "id": "sapato8",
+    "modelo": "Air Max 90 Dust",
+    "preco": 900,
+    "categoria": "esportivo",
+    "slug": "air-max-90-desert",
+    "ano": 2022,
+    "descricao": "Inspirado nas tonalidades terrosas do deserto."
+  },
+  {
+    "id": "sapato9",
+    "modelo": "Timberland Storm",
+    "preco": 1100,
+    "categoria": "saltos e botas",
+    "slug": "timberland-storm-black",
+    "ano": 2021,
+    "descricao": "Impermeável com revestimento interno térmico."
+  },
+  {
+    "id": "sapato10",
+    "modelo": "Gucci Ace",
+    "preco": 2500,
+    "categoria": "sociais",
+    "slug": "gucci-ace-bee",
+    "ano": 2023,
+    "descricao": "Mocassim de couro com detalhe em abelha bordada."
+  },
+  {
+    "id": "sapato11",
+    "modelo": "Blazer Mid Vintage",
+    "preco": 750,
+    "categoria": "casual",
+    "slug": "blazer-mid-sunset",
+    "ano": 2022,
+    "descricao": "Cores degradê que remetem ao pôr do sol."
+  },
+  {
+    "id": "sapato12",
+    "modelo": "NMD_R1 Galaxy",
+    "preco": 800,
+    "categoria": "esportivo",
+    "slug": "nmd-r1-galaxy",
+    "ano": 2021,
+    "descricao": "Estampa celestial com tecnologia Boost."
+  },
+  {
+    "id": "sapato13",
+    "modelo": "Yeezy Boost 350",
+    "preco": 1300,
+    "categoria": "casual",
+    "slug": "yeezy-350-moonrock",
+    "ano": 2023,
+    "descricao": "Edição limitada em tons de rocha lunar."
+  },
+  {
+    "id": "sapato14",
+    "modelo": "New Balance 574",
+    "preco": 500,
+    "categoria": "sociais",
+    "slug": "nb-574-rainbow",
+    "ano": 2022,
+    "descricao": "Cores vibrantes em mesh respirável."
+  },
+  {
+    "id": "sapato15",
+    "modelo": "Reebok Classic",
+    "preco": 450,
+    "categoria": "sociais",
+    "slug": "reebok-classic-leather",
+    "ano": 2021,
+    "descricao": "Couro macio com palmilha OrthoLite."
+  },
+  {
+    "id": "sapato16",
+    "modelo": "Hoka One One",
+    "preco": 950,
+    "categoria": "esportivo",
+    "slug": "hoka-one-carbon",
+    "ano": 2023,
+    "descricao": "Placa de carbono para corridas de alta performance."
+  },
+  {
+    "id": "sapato17",
+    "modelo": "Salomon XT-6",
+    "preco": 850,
+    "categoria": "sociais",
+    "slug": "salomon-xt6-lava",
+    "ano": 2022,
+    "descricao": "Tração agressiva para trilhas e terrenos irregulares."
+  },
+  {
+    "id": "sapato18",
+    "modelo": "Balenciaga Triple S",
+    "preco": 1800,
+    "categoria": "saltos e botas",
+    "slug": "balenciaga-triple-s-clear",
+    "ano": 2021,
+    "descricao": "Sola oversized e detalhes transparentes."
+  },
+  {
+    "id": "sapato19",
+    "modelo": "Crocs Pollex",
+    "preco": 300,
+    "categoria": "saltos e botas",
+    "slug": "crocs-pollex-jelly",
+    "ano": 2023,
+    "descricao": "Design divertido em material translúcido."
+  },
+  {
+    "id": "sapato20",
+    "modelo": "Dr. Martens 1461",
+    "preco": 650,
+    "categoria": "sociais",
+    "slug": "dr-martens-smooth",
+    "ano": 2022,
+    "descricao": "Couro liso com icônica costura amarela."
+  }
+]
