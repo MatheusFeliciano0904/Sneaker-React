@@ -9,7 +9,7 @@ const Tenis = ({ teni }) => (
                 alt={teni.modelo}
                 onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src = '/imagens/tenis/padrao.jpg'; // Imagem padrão se não encontrar
+                    e.target.src = '/imagens/tenis/padrao.jpg'; 
                 }}
             />
             <ul>
