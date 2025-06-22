@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Home = ({ tenis }) => (
+const Social = ({ tenis }) => (
     <main className="principal">
-        <h2>Lançamentos</h2>
-        {tenis.filter((l , index) => index < 5).map(teni => 
+        <h2>Categoria Social</h2>
+        {tenis.filter(c => c.categoria === "sociais").map(teni =>
         (
             <div className="card">
                 <div className="thumb">
@@ -13,7 +13,7 @@ const Home = ({ tenis }) => (
                 <Link to={`/teni/${teni.slug}`}>
                     <div className="detalhes">
                         <h3>{teni.modelo}</h3>
-                        <p>{teni.descricao.slice(0,100) + "..."}</p>
+                        <p>{teni.descricao.slice(0, 100) + "..."}</p>
                         <p>Leia mais &gt;</p>
                     </div>
                 </Link>
@@ -21,4 +21,4 @@ const Home = ({ tenis }) => (
         ))}
     </main>
 );
-export default Home;
+export default Social;

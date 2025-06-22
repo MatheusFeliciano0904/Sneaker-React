@@ -1,6 +1,7 @@
 [
   {
-    "id": "sapato1",
+    "id": 1,
+    "id_imagem": "sapato1",
     "modelo": "Air Max Scorpion",
     "preco": 1200,
     "categoria": "esportivo",
@@ -8,8 +9,9 @@
     "ano": 2023,
     "descricao": "Tecnologia de amortecimento revolucionária para corridas."
   },
-  {
-    "id": "sapato2",
+  { 
+    "id": 2,
+    "id_imagem": "sapato2",
     "modelo": "Dunk Low Retro",
     "preco": 850,
     "categoria": "casual",
@@ -18,16 +20,18 @@
     "descricao": "Clássico retrô com design minimalista em preto e branco."
   },
   {
-    "id": "sapato3",
+    "id": 3,
+    "id_imagem": "sapato3",
     "modelo": "Superstar Bounce",
     "preco": 600,
     "categoria": "saltos e botas",
-    "slug": "superstar-kids-glitter",
+    "slug": "superstar-bounce-bota",
     "ano": 2021,
-    "descricao": "Versão infantil de Bota com detalhes em glitter e conforto reforçado."
+    "descricao": "Bota esportiva com tecnologia de amortecimento e detalhes em glitter."
   },
   {
-    "id": "sapato4",
+    "id": 4,
+    "id_imagem": "sapato4",
     "modelo": "RS-X Turbo",
     "preco": 550,
     "categoria": "esportivo",
@@ -36,7 +40,8 @@
     "descricao": "Design futurista com solado de alta tração."
   },
   {
-    "id": "sapato5",
+    "id": 5,
+    "id_imagem": "sapato5",
     "modelo": "Air Force 1 Lux",
     "preco": 700,
     "categoria": "casual",
@@ -45,7 +50,8 @@
     "descricao": "Edição premium em couro com detalhes dourados."
   },
   {
-    "id": "sapato6",
+    "id": 6,
+    "id_imagem": "sapato6",
     "modelo": "Old Skool Flame",
     "preco": 350,
     "categoria": "casual",
@@ -54,16 +60,18 @@
     "descricao": "Estampa de chamas laterais para um visual ousado."
   },
   {
-    "id": "sapato7",
-    "modelo": "Chuck Taylor Art",
+    "id": 7,
+    "id_imagem": "sapato7",
+    "modelo": "Chuck Taylor Bota",
     "preco": 400,
     "categoria": "saltos e botas",
-    "slug": "chuck-taylor-doodle",
+    "slug": "chuck-taylor-bota",
     "ano": 2023,
-    "descricao": "Personalizado com ilustrações infantis coloridas."
+    "descricao": "Bota casual com ilustrações artísticas coloridas."
   },
   {
-    "id": "sapato8",
+    "id": 8,
+    "id_imagem": "sapato8",
     "modelo": "Air Max 90 Dust",
     "preco": 900,
     "categoria": "esportivo",
@@ -72,7 +80,8 @@
     "descricao": "Inspirado nas tonalidades terrosas do deserto."
   },
   {
-    "id": "sapato9",
+    "id": 9,
+    "id_imagem": "sapato9",
     "modelo": "Timberland Storm",
     "preco": 1100,
     "categoria": "saltos e botas",
@@ -81,7 +90,8 @@
     "descricao": "Impermeável com revestimento interno térmico."
   },
   {
-    "id": "sapato10",
+    "id": 10,
+    "id_imagem": "sapato10",
     "modelo": "Gucci Ace",
     "preco": 2500,
     "categoria": "sociais",
@@ -90,7 +100,8 @@
     "descricao": "Mocassim de couro com detalhe em abelha bordada."
   },
   {
-    "id": "sapato11",
+    "id": 11,
+    "id_imagem": "sapato11",
     "modelo": "Blazer Mid Vintage",
     "preco": 750,
     "categoria": "casual",
@@ -99,7 +110,8 @@
     "descricao": "Cores degradê que remetem ao pôr do sol."
   },
   {
-    "id": "sapato12",
+    "id": 12,
+    "id_imagem": "sapato12",
     "modelo": "NMD_R1 Galaxy",
     "preco": 800,
     "categoria": "esportivo",
@@ -108,7 +120,8 @@
     "descricao": "Estampa celestial com tecnologia Boost."
   },
   {
-    "id": "sapato13",
+    "id": 13,
+    "id_imagem": "sapato13",
     "modelo": "Yeezy Boost 350",
     "preco": 1300,
     "categoria": "casual",
@@ -117,7 +130,8 @@
     "descricao": "Edição limitada em tons de rocha lunar."
   },
   {
-    "id": "sapato14",
+    "id": 14,
+    "id_imagem": "sapato14",
     "modelo": "New Balance 574",
     "preco": 500,
     "categoria": "sociais",
@@ -126,7 +140,8 @@
     "descricao": "Cores vibrantes em mesh respirável."
   },
   {
-    "id": "sapato15",
+    "id": 15,
+    "id_imagem": "sapato15",
     "modelo": "Reebok Classic",
     "preco": 450,
     "categoria": "sociais",
@@ -135,7 +150,8 @@
     "descricao": "Couro macio com palmilha OrthoLite."
   },
   {
-    "id": "sapato16",
+    "id": 16,
+    "id_imagem": "sapato16",
     "modelo": "Hoka One One",
     "preco": 950,
     "categoria": "esportivo",
@@ -144,7 +160,8 @@
     "descricao": "Placa de carbono para corridas de alta performance."
   },
   {
-    "id": "sapato17",
+    "id": 17,
+    "id_imagem": "sapato17",
     "modelo": "Salomon XT-6",
     "preco": 850,
     "categoria": "sociais",
@@ -153,7 +170,8 @@
     "descricao": "Tração agressiva para trilhas e terrenos irregulares."
   },
   {
-    "id": "sapato18",
+    "id": 18,
+    "id_imagem": "sapato18",
     "modelo": "Balenciaga Triple S",
     "preco": 1800,
     "categoria": "saltos e botas",
@@ -162,7 +180,8 @@
     "descricao": "Sola oversized e detalhes transparentes."
   },
   {
-    "id": "sapato19",
+    "id": 19,
+    "id_imagem": "sapato19",
     "modelo": "Crocs Pollex",
     "preco": 300,
     "categoria": "saltos e botas",
@@ -171,7 +190,8 @@
     "descricao": "Design divertido em material translúcido."
   },
   {
-    "id": "sapato20",
+    "id": 20,
+    "id_imagem": "sapato20",
     "modelo": "Dr. Martens 1461",
     "preco": 650,
     "categoria": "sociais",

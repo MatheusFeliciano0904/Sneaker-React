@@ -25,7 +25,14 @@ const Catalogo = ({ tenis }) => {
                 (
                     <li><Link to={`/teni/${teni.slug}`}>{teni.modelo}</Link></li>
                 ))}
-            </ol> 
+            </ol>
+            <h2>Categoria Social</h2>
+            <ol>
+                {tenis.filter(teni => teni.categoria === "sociais").map(teni => 
+                (
+                    <li><Link to={`/teni/${teni.slug}`}>{teni.modelo}</Link></li>
+                ))}
+            </ol>  
         </main>
     );
 };

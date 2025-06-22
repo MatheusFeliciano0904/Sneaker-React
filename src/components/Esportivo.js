@@ -8,7 +8,7 @@ const Esportivo = ({ tenis }) => (
         (
             <div className="card">
                 <div className="thumb">
-                    <img src={"/imagens/tenis/" + teni.id + ".jpg"} />
+                    <img src={"/imagens/tenis/" + teni.id_imagem + ".jpg"} />
                 </div>
                 <Link to={`/teni/${teni.slug}`}>
                     <div className="detalhes">

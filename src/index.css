@@ -394,3 +394,319 @@ a:hover {
     height: 150px;
   }
 }
+
+#tudo {
+  background: #eaefef;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menu ul {
+  padding: 12px 5px;
+}
+.menu li {
+  list-style: none;
+  display: inline;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+.menu li:first-child {
+  padding: 0;
+}
+
+.tabela {
+  width: 200%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.tabela thead {
+  background: linear-gradient(to right, #E31937, #B01022);
+}
+
+.tabela th {
+  padding: 12px 15px;
+  text-align: left;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+
+.tabela tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.tabela tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.tabela tbody tr:hover {
+  background-color: #fff5f5;
+}
+
+.tabela td {
+  padding: 12px 15px;
+  color: #333;
+}
+
+
+.tabela tfoot {
+  background: #f8f8f8;
+}
+
+.tabela tfoot td {
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #666;
+}
+
+
+.botao {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.excluir {
+  background: #E31937;
+  color: white;
+  border: 1px solid #B01022;
+}
+
+.excluir:hover {
+  background: #B01022;
+}
+
+.lista-cadastrar-alterar {
+  background: #E31937;
+  color: white;
+  border: none;
+  
+}
+
+.lista-cadastrar-alterar:hover {
+  background: #B01022;
+}
+
+
+@media (max-width: 768px) {
+  .tabela {
+    font-size: 0.85rem;
+  }
+  
+  .tabela th, 
+  .tabela td {
+    padding: 8px 10px;
+  }
+}
+
+.formulario {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #E31937, #C0102A);
+  text-align: center;
+  margin: -2.5rem -2.5rem 3rem -2.5rem; /* Ajuste para alinhar com o container */
+  padding: 1.8rem 2rem;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 4px 12px rgba(227, 25, 55, 0.2);
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+
+.formulario h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .formulario h2 {
+    font-size: 1.5rem;
+    margin: -1.5rem -1.5rem 2.5rem -1.5rem;
+    padding: 1.5rem;
+    letter-spacing: 0.3px;
+  }
+}
+
+
+.formulario p {
+  margin-bottom: 2rem;
+}
+
+
+.formulario label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+  border-color: #E31937;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(227, 25, 55, 0.1);
+}
+
+
+.formulario textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+
+.botao.cadastrar-alterar {
+  background: #E31937;
+  color: white;
+  border: none;
+  padding: 1.2rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.botao.cadastrar-alterar:hover {
+  background: #B01022;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (min-width: 768px) {
+  .formulario {
+    padding: 3rem;
+  }
+  
+  .formulario h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .form-group {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.botao.cadastrar-alterar {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: var(--white);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+  width: 100%;
+  margin-top: 1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.botao.cadastrar-alterar:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.botao.cadastrar-alterar:active {
+  transform: translateY(0);
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.formulario {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+
+.formulario input:invalid:not(:placeholder-shown) {
+  border-color: #ff4444;
+}
+
+.formulario input:valid:not(:placeholder-shown) {
+  border-color: #00c851;
+}
+
+
+@media (max-width: 768px) {
+  .formulario {
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+  
+  .formulario h2 {
+    margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .formulario form {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .formulario p:last-child,
+  .formulario p:nth-last-child(2) {
+    grid-column: span 2;
+  }
+}
+.botao.lista-cadastrar-alterar a,
+.botao.lista-cadastrar-alterar {
+  color: white !important;
+}
+
+
+.botao.lista-cadastrar-alterar:hover a,
+.botao.lista-cadastrar-alterar:hover {
+  color: white !important;
+}

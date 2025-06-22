@@ -5,7 +5,7 @@ const Tenis = ({ teni }) => (
         <h2>{teni.modelo}</h2>
         <div className="teni">
             <img
-                src={`/imagens/tenis/${teni.id}.jpg`}
+                src={`/imagens/tenis/${teni.id_imagem}.jpg`}
                 alt={teni.modelo}
                 onError={(e) => {
                     e.target.onerror = null;

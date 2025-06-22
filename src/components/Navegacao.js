@@ -17,7 +17,13 @@ const Navegacao = () => (
             <NavLink to="/saltos e botas">Saltos e Botas</NavLink>
         </li>
         <li>
+            <NavLink to="/sociais">Social</NavLink>
+        </li>
+        <li>
             <NavLink to="/catalogo">Catálogo</NavLink>
+        </li>
+        <li>
+            <NavLink to="/tabela">Cadastro</NavLink>
         </li>
     </ul>
 );
